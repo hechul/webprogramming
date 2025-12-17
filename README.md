@@ -8,17 +8,8 @@
 
 ---
 
-## 🖥️ 프로젝트 미리보기 (Preview)
 
-![Main Screenshot](./image_393895.png)
-*▲ iOS 캘린더 스타일의 직관적인 UI와 연속 일정 표시 기능*
-
-### 🔗 배포 링크 (Demo)
-> **[여기를 클릭하여 웹사이트 바로가기](https://hechul.github.io/webprogramming/)** > *(위 링크가 작동하려면 Repository의 Settings > Pages에서 main 브랜치를 배포 설정해주세요)*
-
----
-
-## ✨ 주요 기능 (Key Features)
+##  주요 기능 (Key Features)
 
 ### 1. iOS 스타일 캘린더 (Continuous Schedule Bars)
 - **연속 일정 시각화:** 시작일과 종료일을 설정하면 달력에 끊김 없는 **Bar 형태**로 일정이 표시됩니다.
@@ -30,14 +21,12 @@
 - **Money Log (가계부):** 수입/지출 내역 기록 및 메모 기능. 달력 하단에 작은 점(Dot)으로 수입(파랑)/지출(빨강) 여부를 표시합니다.
 - **Photo Log:** `FileReader` API를 활용하여 그날의 사진을 업로드하고 슬라이드로 감상할 수 있습니다.
 - **Mood Tracker:** 5가지 이모지로 그날의 기분을 기록하고 달력에 표시합니다.
-
-### 3. 데이터 영속성 (Data Persistence)
 - **LocalStorage 활용:** 브라우저를 종료해도 데이터(일정, 가계부, 사진, 기분 등)가 사라지지 않고 유지됩니다.
 - **이미지 데이터 처리:** 업로드한 이미지를 Base64 문자열로 변환하여 로컬 스토리지에 저장합니다.
 
 ---
 
-## 🛠️ 기술 스택 (Tech Stack)
+##  기술 스택 (Tech Stack)
 
 * **Frontend:** HTML5, CSS3 (Flexbox, CSS Animation), JavaScript (ES6+)
 * **Storage:** Web LocalStorage API
