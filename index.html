@@ -189,9 +189,7 @@ const tooltip = document.getElementById("calendarTooltip");
 
 
 // 초기 실행
-init();
-
-function init() {
+window.onload = function init() {
   // 버튼/이벤트 연결
   document.getElementById("goTodayBtn").onclick = goToday;
   document.getElementById("prevMonth").onclick = prevMonth;
